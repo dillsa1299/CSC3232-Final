@@ -1,0 +1,445 @@
+Using pre-set license
+Built from '2021.2/release' branch; Version is '2021.2.0f1 (4bf1ec4b23c9) revision 4977132'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/University/OneDrive - Newcastle University/CSC3232 - Gaming Tech/_Assignment/CSC3232 - Gaming
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49976
+Successfully changed project path to: C:/Users/University/OneDrive - Newcastle University/CSC3232 - Gaming Tech/_Assignment/CSC3232 - Gaming
+C:/Users/University/OneDrive - Newcastle University/CSC3232 - Gaming Tech/_Assignment/CSC3232 - Gaming
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 113.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/University/OneDrive - Newcastle University/CSC3232 - Gaming Tech/_Assignment/CSC3232 - Gaming/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008155 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 121.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008590 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\University\OneDrive - Newcastle University\CSC3232 - Gaming Tech\_Assignment\CSC3232 - Gaming\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\University\OneDrive - Newcastle University\CSC3232 - Gaming Tech\_Assignment\CSC3232 - Gaming\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1001ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3357 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.6 MB). Loaded Objects now: 3839.
+Memory consumption went from 168.5 MB to 166.8 MB.
+Total: 3.724600 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.093100 ms MarkObjects: 2.795700 ms  DeleteObjects: 0.502400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97778.746854 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/bedside_table.002.fbx
+  artifactKey: Guid(63eed49c2a895c449ae6a39ea1b47645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/bedside_table.002.fbx using Guid(63eed49c2a895c449ae6a39ea1b47645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bd5b4bf6242d7372cf16f9fc05cd3b') in 0.301978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Fences/big_fence.002.prefab
+  artifactKey: Guid(e17090a47b884224e92e6bf7126d1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Fences/big_fence.002.prefab using Guid(e17090a47b884224e92e6bf7126d1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc0eb3b2c0dc95e58cb76e316f43a07') in 0.116509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078549 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Fences/big_fence.003.prefab
+  artifactKey: Guid(66ce2554d943ab14db051b408dc948ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Fences/big_fence.003.prefab using Guid(66ce2554d943ab14db051b408dc948ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90d8bce145a3b946579db023bc57d54') in 0.016510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx
+  artifactKey: Guid(622a87b3379022740be7e2efea3ebd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Standard Assets/Prototyping/Models/BlockPrototype04x04x04.fbx using Guid(622a87b3379022740be7e2efea3ebd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3bbd21bfce27224ea252602c43fa72') in 0.045420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/book.fbx
+  artifactKey: Guid(96575fa25b18b3a44a52bc47e814825e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/book.fbx using Guid(96575fa25b18b3a44a52bc47e814825e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de02796dc89888a7b1aff5533d2d8d7d') in 0.086165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/books.fbx
+  artifactKey: Guid(fe8929f36d597e748b0350884432fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/books.fbx using Guid(fe8929f36d597e748b0350884432fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7377a246c2ce88e72ebff4eb5a9aa129') in 0.098935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/books.001.fbx
+  artifactKey: Guid(ed28833c948158545bbf2b0cc10ba257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/books.001.fbx using Guid(ed28833c948158545bbf2b0cc10ba257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f338d5f86d4cbc231c30adfa17bba1dc') in 0.126479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074790 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/books.002.fbx
+  artifactKey: Guid(d7d3ea35aafe1c64fb69fcdbfcefedf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/books.002.fbx using Guid(d7d3ea35aafe1c64fb69fcdbfcefedf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbcea4bc0a2ed9e8d0a479406287197') in 0.019082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/books.006.fbx
+  artifactKey: Guid(af724e0b3b47972478273833b7318389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/books.006.fbx using Guid(af724e0b3b47972478273833b7318389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f89046c4ad76f663ba617d3aed4da84') in 0.051091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Books/books.004.prefab
+  artifactKey: Guid(3e59b712796667444b27e9710346fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Books/books.004.prefab using Guid(3e59b712796667444b27e9710346fb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250383569cc46c1ff9ed13d8a5a5e979') in 0.023575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Books/books.006.prefab
+  artifactKey: Guid(d3afa6c03e4ec924aa1fb5b97a490374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Books/books.006.prefab using Guid(d3afa6c03e4ec924aa1fb5b97a490374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a9f9e796a3f1905426c8c0678afeaf') in 0.032044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/On Table/bottle.prefab
+  artifactKey: Guid(2ec331173f7675241a638434697a019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/On Table/bottle.prefab using Guid(2ec331173f7675241a638434697a019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6871c0427756962e777126b35698d327') in 0.099570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/On Table/bottle.003.prefab
+  artifactKey: Guid(e715ee18d4ba7664ab5b37966b127c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/On Table/bottle.003.prefab using Guid(e715ee18d4ba7664ab5b37966b127c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bfc44d8d36d83134afdb0f694a7365') in 0.021248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Boxes/box.prefab
+  artifactKey: Guid(46d70a8a42a59914883c9d2ea16b6a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Boxes/box.prefab using Guid(46d70a8a42a59914883c9d2ea16b6a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b67c732191ae7c363c7dc77db5e273f') in 0.034443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Boxes/box.003.prefab
+  artifactKey: Guid(159ade316b0b6bc4d85bad139883e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Boxes/box.003.prefab using Guid(159ade316b0b6bc4d85bad139883e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff11b08fdfa90edce4c1a79eabbfe76f') in 0.031656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/box.fbx
+  artifactKey: Guid(2f5a755278514ef4db4bc7864409d4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/box.fbx using Guid(2f5a755278514ef4db4bc7864409d4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd388e1c5f022cf863ae0de34d9b5bf9e') in 0.095846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/On Table/bottle.001.prefab
+  artifactKey: Guid(b18333bd3d4ff954ab4259f067d1ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/On Table/bottle.001.prefab using Guid(b18333bd3d4ff954ab4259f067d1ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b25b1f976c5b3870903c3d240e515d') in 0.019568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/On Table/bottle.002.prefab
+  artifactKey: Guid(bc5187e58fabe484389c4fcd74a3036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/On Table/bottle.002.prefab using Guid(bc5187e58fabe484389c4fcd74a3036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2f3a712699f343f3c1f5d4c8e68c59') in 0.089476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243813 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/box.003.fbx
+  artifactKey: Guid(4234dace436b82a4f8b8f914e3daaafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/box.003.fbx using Guid(4234dace436b82a4f8b8f914e3daaafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ffe5589cde7e00c26a1ee1cc70ef8f') in 0.020574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.fbx
+  artifactKey: Guid(fc9d2c6141cf1854c8da41b636f78134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.fbx using Guid(fc9d2c6141cf1854c8da41b636f78134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44cfe32307b9cd7000c62bc39b3c419') in 0.025818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.prefab
+  artifactKey: Guid(212ac3fed3b1fd3498977aaa5ef5fd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.prefab using Guid(212ac3fed3b1fd3498977aaa5ef5fd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36037008b732a1c082a0bd9aab156948') in 0.065640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023087 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.001.prefab
+  artifactKey: Guid(9b7762220ee4fd1468a6256b2376f3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.001.prefab using Guid(9b7762220ee4fd1468a6256b2376f3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52e69e1feb47e941b4d9cff064cee88') in 0.026186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.004.fbx
+  artifactKey: Guid(bae4b55fee53f654caed6dacfa11ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.004.fbx using Guid(bae4b55fee53f654caed6dacfa11ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c272c38c035e2af048e726b9c65cfd2f') in 0.037622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.006.fbx
+  artifactKey: Guid(c9f37404ee574f244bd846d981696f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.006.fbx using Guid(c9f37404ee574f244bd846d981696f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6929b3bbe47f1938cc80278ae0be964') in 0.061760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.011.fbx
+  artifactKey: Guid(5cc41b61285b9f5499f8923a6c098c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.011.fbx using Guid(5cc41b61285b9f5499f8923a6c098c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8efd777a7758660be988aac88411d0') in 0.059251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.010.fbx
+  artifactKey: Guid(d340a00e1b801114ca25887059546691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.010.fbx using Guid(d340a00e1b801114ca25887059546691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8877e6d7fcb49e15aa17184553bdf1f') in 0.167777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.002.prefab
+  artifactKey: Guid(4024e2a363f907d42b50f8b29d93970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.002.prefab using Guid(4024e2a363f907d42b50f8b29d93970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a517510904d2374fcc85ae1b24331fc6') in 0.024219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.010.prefab
+  artifactKey: Guid(e5c4519dcf5db424da9fb25b315d8762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.010.prefab using Guid(e5c4519dcf5db424da9fb25b315d8762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6241c84f7376c843634dd2badd84f08b') in 0.080223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022848 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.013.prefab
+  artifactKey: Guid(0b82bcaa37cda4441b6f82132227cc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.013.prefab using Guid(0b82bcaa37cda4441b6f82132227cc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce2de1ab3519d75c1e36bd70537a2e6') in 0.025884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.016.fbx
+  artifactKey: Guid(eb9f4dd3cdb919245bcd7491f9b5e25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.016.fbx using Guid(eb9f4dd3cdb919245bcd7491f9b5e25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180a0bfc67adef1e193595b65a0f2607') in 0.033770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.017.fbx
+  artifactKey: Guid(559fc44945c9728489f82888cceb364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.017.fbx using Guid(559fc44945c9728489f82888cceb364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588060eb70c9fc3c5e75258b4156d245') in 0.030641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.020.fbx
+  artifactKey: Guid(7e33ba8be60eb604880a26ad0d2a4dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.020.fbx using Guid(7e33ba8be60eb604880a26ad0d2a4dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9ba969359b6085d6f82d2530fd4171') in 0.076004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.025.prefab
+  artifactKey: Guid(973e25a9efef5f44495873976d7126c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.025.prefab using Guid(973e25a9efef5f44495873976d7126c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2595d7a0344f7c0b7327a619b07194') in 0.064503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.022.fbx
+  artifactKey: Guid(2a28eab3ab84a4e4d9ba26d3c3cfb965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.022.fbx using Guid(2a28eab3ab84a4e4d9ba26d3c3cfb965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c6c1fcb43bf9ab85fab7b664bceeec') in 0.049969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.025.fbx
+  artifactKey: Guid(d2d8f38a68524c64fad4b0c977d02426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.025.fbx using Guid(d2d8f38a68524c64fad4b0c977d02426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeee695306749b45886da1705a8dc898') in 0.135167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.024.fbx
+  artifactKey: Guid(a93d1e14f08725b4e84c2bc4b39dccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.024.fbx using Guid(a93d1e14f08725b4e84c2bc4b39dccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0041da4988d1635eec9a553d39be3aa') in 0.101736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.024.prefab
+  artifactKey: Guid(8838ebff68db03b4ea257f35c8d419ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.024.prefab using Guid(8838ebff68db03b4ea257f35c8d419ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb5fca40129aae2175773aeeffbce83') in 0.019230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.021.prefab
+  artifactKey: Guid(48f51f753a238d74f9ac1e273e09db5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.021.prefab using Guid(48f51f753a238d74f9ac1e273e09db5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b10efffef43cc9b30fb1669f65af8a5') in 0.094910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Packages/YughuesFreeBushes2018/Meshes/Bush02.FBX
+  artifactKey: Guid(41212a0a5585e0243b25926856a1c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/YughuesFreeBushes2018/Meshes/Bush02.FBX using Guid(41212a0a5585e0243b25926856a1c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512e5b8e29d70c0a65720262b57a6658') in 0.168157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/candle.003.fbx
+  artifactKey: Guid(66855ff27e4b6c944ae3c27445928336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/candle.003.fbx using Guid(66855ff27e4b6c944ae3c27445928336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259111853c0b1f7c7e28aa8d449209f4') in 0.091024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Candels/candle.001.prefab
+  artifactKey: Guid(837bbaf5dee360744b718c131e460361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Candels/candle.001.prefab using Guid(837bbaf5dee360744b718c131e460361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75ada064fead1fd8c08612734ff44b2') in 0.061874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Candels/candle.prefab
+  artifactKey: Guid(c3450acf831bfe8488297849333aa224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Candels/candle.prefab using Guid(c3450acf831bfe8488297849333aa224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d99168ddcc64bd000a00e7b9dba0d52') in 0.105511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/cage.prefab
+  artifactKey: Guid(2813f18062e255a4aa5723d7a214a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/cage.prefab using Guid(2813f18062e255a4aa5723d7a214a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aa4ff82a75e1bdb57f5c4c3a8b7fa1') in 0.021311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Packages/YughuesFreeBushes2018/Meshes/Bush04.FBX
+  artifactKey: Guid(8f2212efada33cd4f929c4ca2c0162d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/YughuesFreeBushes2018/Meshes/Bush04.FBX using Guid(8f2212efada33cd4f929c4ca2c0162d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d2d9237593a5c274ed5b11d7e1a9dd') in 0.180805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Candels/candle.002.prefab
+  artifactKey: Guid(1f44ff26a40ad394081c1f8220d99413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Candels/candle.002.prefab using Guid(1f44ff26a40ad394081c1f8220d99413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1422388d6d9db57d009ba2452185320') in 0.033355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.015.prefab
+  artifactKey: Guid(88ccfe60a3e72794683fd737a57fff4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/Miscellaneous/Bricks/brick.015.prefab using Guid(88ccfe60a3e72794683fd737a57fff4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e06ff7cf70e55a3129778c7bf337113') in 0.021787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Packages/Mega Fantasy Props Pack/New folder/brick.018.fbx
+  artifactKey: Guid(b9b0ce20a842fe7449d9097a93cabe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Mega Fantasy Props Pack/New folder/brick.018.fbx using Guid(b9b0ce20a842fe7449d9097a93cabe0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578804ef77eb4729e163296621cb5c02') in 0.102791 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
