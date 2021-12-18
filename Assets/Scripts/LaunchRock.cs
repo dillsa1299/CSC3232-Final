@@ -5,11 +5,12 @@ using UnityEngine;
 public class LaunchRock : MonoBehaviour
 {
     public float cycleTime = 3f;
+    public float startDelay = 0f;
     Vector3 startPos;
     void Start()
     {
         startPos = transform.position;
-        InvokeRepeating("Activate", 0f, cycleTime);
+        InvokeRepeating("Activate", startDelay, cycleTime);
     }
 
     void Activate()

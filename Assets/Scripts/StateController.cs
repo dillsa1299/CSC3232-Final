@@ -8,6 +8,7 @@ public class StateController : MonoBehaviour
     public GameObject MenuUI;
     public Camera menuCam;
     public Camera playerCam;
+    public GameObject playerHUD;
 
     enum GameMode
     {
@@ -21,6 +22,7 @@ public class StateController : MonoBehaviour
     void Start()
     {
         StartMainMenu();
+        playerHUD.SetActive(false);
     }
 
     // Update is called once per frame
@@ -56,6 +58,7 @@ public class StateController : MonoBehaviour
     void StartGameplay()
     {
         gameMode                        = GameMode.Gameplay;
+        playerHUD.SetActive(true);
         MenuUI.gameObject.SetActive(false);
         playerCam.enabled = true;
         menuCam.enabled = false;

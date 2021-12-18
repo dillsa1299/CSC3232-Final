@@ -8,6 +8,10 @@ TagManager:
   - Jump Boost
   - Double Jump
   - Lava
+  - Health
+  - Zombie
+  - Fire
+  - FriendSpawn
   layers:
   - Default
   - TransparentFX
@@ -17,8 +21,8 @@ TagManager:
   - UI
   - Ground
   - Interaction
-  - 
-  - 
+  - Player
+  - Dead Zombie
   - 
   - 
   - 

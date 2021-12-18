@@ -29,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
     public bool doubleJump = false;
     int doubleJumpCount = 0;
 
+    public AudioSource jumpSound;
+
     void Start()
     {
         originalMoveSpeed = moveSpeed;
@@ -67,10 +69,16 @@ public class PlayerMovement : MonoBehaviour
             if(jumpBoostPowerup)
             {
                 velocity.y = Mathf.Sqrt(jumpHeight*1.5f * -2f * gravity);
+                jumpSound.volume = Random.Range(0.2f, 0.3f);
+                jumpSound.pitch = Random.Range(0.9f, 1.1f);
+                jumpSound.Play();
             }
             else
             {
                 velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                jumpSound.volume = Random.Range(0.2f, 0.3f);
+                jumpSound.pitch = Random.Range(0.9f, 1.1f);
+                jumpSound.Play();
             }
         }
 
@@ -80,6 +88,9 @@ public class PlayerMovement : MonoBehaviour
             {
                 velocity.y = Mathf.Sqrt(jumpHeight*1.5f * -2f * gravity);
                 doubleJumpCount +=1;
+                jumpSound.volume = Random.Range(0.2f, 0.3f);
+                jumpSound.pitch = Random.Range(0.9f, 1.1f);
+                jumpSound.Play();
             }
         }
 

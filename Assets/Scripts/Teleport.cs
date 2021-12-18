@@ -11,6 +11,8 @@ public class Teleport : MonoBehaviour
     public GameObject player;
     CharacterController charController;
     public Transform island;
+    public bool canShoot;
+    public GameObject healthBar;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,11 @@ public class Teleport : MonoBehaviour
         {
             player.GetComponent<Player>().teleportPlayer(island.transform.position);
             player.transform.eulerAngles = new Vector3(0,0,0); //Resets player rotation
+            if (canShoot)
+            {
+                player.GetComponent<Player>().CanShoot(canShoot);
+                healthBar.SetActive(true);
+            }
         }
     }
 }
